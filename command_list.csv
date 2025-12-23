@@ -1,0 +1,53 @@
+    1  help cd / man cd
+    2  cd
+    3  c && rm ~/.bash_history
+    4  help
+    5  man ls
+    6  man ls
+    7  cd desktop
+    8  cd desktop
+    9  ls
+   10  clear
+   11  [200~touch .gitignore
+   12  echo "*.log"  .gitignore
+   13  echo "*.tmp"  .gitignore
+   14  git add .gitignore
+   15  git commit -m "Add .gitignore"
+   16  git push
+   17  clear
+   18  cd ~/projects
+   19  git clone https://github.com/<USERNAME>/HW_10.gitclear
+   20  clear
+   21  cd ~/Desktop/HomeWork
+   22  git clone https://github.com/shyrikberd-cmyk/HW_10.git
+   23  cd HW_10
+   24  ls
+   25  pwd
+   26  touch text_ignore.txt
+   27  ls
+   28  nano .gitignore
+   29  git status
+   30  git add .
+   31  git commit -m "Add text_ignore.txt to .gitignore"
+   32  git config --global user.name "Oleksandr Sherenhov"
+   33  git config --global user.email "shyrikberd@gmail.com"
+   34  git commit -m "Add text_ignore.txt to .gitignore"
+   35  touch main_test.txt
+   36  ls
+   37  git add .
+   38  git commit -m "Create empty main_test.txt"
+   39  git checkout -b develop
+   40  git branch
+   41  touch develop_test.txt
+   42  ls
+   43  git add .
+   44  git commit -m "Create empty develop_test.txt"
+   45  echo "just a small change" >> develop_test.txt
+   46  git status
+   47  git add .
+   48  git commit -m "Add small change to develop_test.txt"
+   49  git checkout main
+   50  git branch
+   51  git merge develop
+   52  git log --oneline
+   53  history > command_list.csv
